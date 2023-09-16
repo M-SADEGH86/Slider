@@ -1,0 +1,116 @@
+@font-face {
+    font-family: iransans;
+    src: url(../font/IRANSansWeb.ttf) format('truetype');
+}
+*{
+    font-family: iransans;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden ;
+    position: relative;
+}
+#bg-gradient {
+    display: inline-block;
+    width: 40vw;
+    height: 40vw;
+    background-color: aqua;
+    border-radius: 100%;
+    filter: blur(5rem);
+    position: absolute;
+    z-index: -10;
+    right: -2rem;
+    top: -2rem;
+}
+#bg-gradient1{
+    display: inline-block;
+    width: 50vw;
+    height: 40vw;
+    background-color: violet;
+    border-radius: 100%;
+    filter: blur(5.75rem);
+    position: absolute;
+    z-index: -10;
+    top: -1rem;
+}
+#bg-gradient2{
+    display: inline-block;
+    width: 40vw;
+    height: 40vw;
+    background-color: aqua;
+    border-radius: 100%;
+    filter: blur(5rem);
+    position: absolute;
+    z-index: -10;
+    left: -1.5rem;
+    top: -1.5rem;
+}
+#bg-gradient3{
+    display: inline-block;
+    width: 140vw;
+    height: 20vw;
+    background-color: orange;
+    border-radius: 100%;
+    filter: blur(7rem);
+    position: absolute;
+    z-index: -10;
+    bottom: -3rem;
+}
+.container {
+    width: 60%;
+    aspect-ratio: 16/9;
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.container .container-slides {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 1.25rem;
+    display: flex;
+    /*margin-right: 200%;         => one slide chengs */
+    transition: all linear 200ms;
+} 
+.container-slides img{
+    border-radius: 1.25rem;
+}
+.container-button {
+    width: 25%;
+    height: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    border-radius: 1.2rem 1.2rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid gray;
+}
+.btn {
+    display: block;
+    width: 0.75rem ;
+    height: 0.75rem ;
+    background-color: #b8b9bc;
+    border-radius: 100px;
+    padding: 0;
+    margin: 0 0.2rem 0 0.2rem ;
+    border: none ;
+    outline: none ;
+    transition: all linear 150ms;
+}
+.active-btn {
+    width: 2rem;
+    background-color: #4683e0;
+}
