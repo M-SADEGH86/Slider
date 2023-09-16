@@ -84,6 +84,7 @@ body {
 } 
 .container-slides img{
     border-radius: 1.25rem;
+    aspect-ratio: 16/9;
 }
 .container-button {
     width: 25%;
