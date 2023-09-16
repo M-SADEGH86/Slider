@@ -1,4 +1,4 @@
-# Hellow , Welcome back 
+# Hello , Welcome back 
 ![Demo Sldier](./assets/image/slider-demo.png)
 
 ## This Project 
